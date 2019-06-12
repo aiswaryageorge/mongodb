@@ -17,6 +17,7 @@ import static org.junit.Assert.*;
 
 @RunWith(SpringRunner.class)
 @DataMongoTest
+@DataJpaTest
 public class TrackRepositoryTest {
 
     @Autowired
